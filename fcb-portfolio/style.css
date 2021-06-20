@@ -1,0 +1,63 @@
+/* selector - asterisk - allows us to add and select our elements that we want to style */
+* {
+	/*font-family: what font, what it defaults to if the link for Google fonts was not included in the html file*/
+	font-family: "Roboto", sans-serif;
+  }
+/*selected all elements with h1 and h2 (selector) to have the following styles:*/
+  h1,h2 {
+  	font-family: "Montserrat", sans-serif;
+  }
+
+  img {
+  	height: 250px;
+  	width: 250px;
+  }
+
+  #landing
+  {
+  	height: 80vh;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+  }
+
+ .jumbotron
+ {
+ 	background-color: transparent;
+ }
+
+  #gallery
+  {
+  	height: 75vh;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+  }
+
+  h2
+  {
+  	color: #007bff;
+  }
+
+  ul
+  {
+		list-style: none;
+		padding: 0;
+  }
+
+  .tools 
+  {
+  		color: white;
+  		border: 5px solid #f2f2f2;
+  		margin: 20px;
+  		padding: 25px;
+  		width: 75%;
+  		height: 200px;
+  }
+
+  html
+  {
+  	scroll-behavior: smooth;
+  }
